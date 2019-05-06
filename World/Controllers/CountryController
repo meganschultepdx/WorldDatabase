@@ -1,0 +1,17 @@
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using World.Models;
+
+namespace World.Controllers
+{
+  public class CountryController : Controller
+  {
+
+    [HttpGet("/country/show")]
+    public ActionResult Show()
+    {
+    return View();
+    }
+
+  }
+}
